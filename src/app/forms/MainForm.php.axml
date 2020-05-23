@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    <method name="doButton6Action">
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  <method name="doButton4Action">
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+    
+  <method name="doButton3Action">
+      <browse url="vk.me/bming" url-type="string"/>
+    </method>
+  <method name="doButtonAction">
+      <browse url="https://qiwi.me/progs" url-type="string"/>
+    </method>
+  <method name="doLabelClickLeft">
+      <browse url="https://vk.com/bming" url-type="string"/>
+    </method>
+  </class>
+</root>

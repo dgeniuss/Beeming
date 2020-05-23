@@ -1,0 +1,69 @@
+{
+  "props": [],
+  "components": {
+    "ini": {
+      "type": "script\\storage\\IniStorage",
+      "x": 112,
+      "y": 208,
+      "props": {
+        "path": "https://bming-progss.ucoz.net/down/progs.ini",
+        "autoSave": "1",
+        "multiLineValues": "1"
+      }
+    },
+    "utilits": {
+      "type": "script\\FileScript",
+      "x": 416.0,
+      "y": 80.0,
+      "props": {
+        "path": "https://bming-progss.ucoz.net/down/utilits.txt",
+        "watch": "1"
+      }
+    },
+    "montage": {
+      "type": "script\\FileScript",
+      "x": 336.0,
+      "y": 80.0,
+      "props": {
+        "path": "https://bming-progss.ucoz.net/down/montage.txt",
+        "watch": "1"
+      }
+    },
+    "audio": {
+      "type": "script\\FileScript",
+      "x": 496.0,
+      "y": 16.0,
+      "props": {
+        "path": "https://bming-progss.ucoz.net/down/audio.txt",
+        "watch": "1"
+      }
+    },
+    "streaming": {
+      "type": "script\\FileScript",
+      "x": 416.0,
+      "y": 16.0,
+      "props": {
+        "path": "https://bming-progss.ucoz.net/down/streaming.txt",
+        "watch": "1"
+      }
+    },
+    "graphics": {
+      "type": "script\\FileScript",
+      "x": 336.0,
+      "y": 16.0,
+      "props": {
+        "path": "https://bming-progss.ucoz.net/down/graphics.txt",
+        "watch": "1"
+      }
+    },
+    "file": {
+      "type": "script\\FileScript",
+      "x": 16.0,
+      "y": 16.0,
+      "props": {
+        "path": "https://bming-progss.ucoz.net/down/progs.txt",
+        "watch": "1"
+      }
+    }
+  }
+}

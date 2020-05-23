@@ -1,0 +1,27 @@
+{
+  "props": [],
+  "components": {
+    "jdownloader": {
+      "type": "bundle\\jurl\\jURLDownloader",
+      "x": 64,
+      "y": 80,
+      "props": {
+        "threadCount": "4",
+        "savePath": "./download/",
+        "selectSavePath": true,
+        "fieldUrl": "editAlt",
+        "labelFileName": "name",
+        "progressBar": "progressBar",
+        "labelProgress": "PROC",
+        "labelSpeed": "SPEEDS",
+        "labelThreads": "POTOKI",
+        "labelDownloaded": "SIZER1",
+        "labelTotal": "SIZER",
+        "labelTimeLeft": "OST",
+        "labelTimePassed": "NADO",
+        "buttonStart": "button5",
+        "buttonStop": "STOP"
+      }
+    }
+  }
+}

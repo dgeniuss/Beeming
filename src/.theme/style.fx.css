@@ -1,0 +1,60 @@
+.combo-box-base  {    
+    -fx-background-color: white;  
+    -fx-background-radius: 2;    
+    -fx-border-color: #e6e6e6;
+}
+.combo-box-base:hover {
+    -fx-background-color: white;  
+    -fx-background-radius: 2;    
+    -fx-border-color: #e6e6e6;
+}
+.combo-box-base:focused:showing, .combo-box-base:focused:showing:hover {
+    -fx-background-color: white;  
+    -fx-background-radius: 2;    
+    -fx-border-color: #e6e6e6;
+}
+.combo-box-base:focused {
+    -fx-background-color: white;  
+    -fx-background-radius: 2;    
+    -fx-border-color: #e6e6e6;
+}
+.combo-box-base:focused:hover {
+    -fx-background-color: white;  
+    -fx-background-radius: 2;    
+    -fx-border-color: #e6e6e6;
+}
+.combo-box-base:focused:pressed {
+    -fx-background-color: white;  
+    -fx-background-radius: 2;    
+    -fx-border-color: #e6e6e6;
+}
+.combo-box-base .arrow-button {
+    -fx-background-color: white;
+}
+.combo-box-base:hover .arrow-button{
+    -fx-background-color: white;  
+}
+.combo-box-base:editable:hover .arrow-button,
+.combo-box-base:editable:focused:pressed .arrow-button {
+    -fx-background-color: white;  
+}
+.combo-box-base:editable .arrow-button:hover{
+    -fx-background-color: white;    
+}
+.combo-box-base:editable:focused .arrow-button:pressed{
+    -fx-background-color: white;    
+}
+.combo-box-base:focused:pressed .arrow-button,
+.combo-box-base:focused:showing .arrow-button,
+.combo-box-base:focused:showing:hover .arrow-button {
+    -fx-background-color: white; 
+}
+.combo-box-base .arrow {    
+    -fx-background-color: #999999;  
+}
+.combo-box-base:editable .combo-box-base {
+    -fx-background-color:transparent;
+} 
+
+
+

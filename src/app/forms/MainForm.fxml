@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440" prefWidth="656" styleClass="">
+  <children>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="15" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel3" layoutX="8" layoutY="272" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="160" prefWidth="640" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <TextField alignment="CENTER_LEFT" editable="false" focusTraversable="true" id="edit" layoutX="80" layoutY="16" prefColumnCount="12" prefHeight="32" prefWidth="520" promptText="" styleClass="text-input text-field " text="name">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="name" layoutX="80" layoutY="56" prefHeight="15.9609375" prefWidth="33.5625" styleClass="label " text="NAME" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-name" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="SIZER" layoutX="320" layoutY="56" prefHeight="15.9609375" prefWidth="22.482421875" styleClass="label " text="SIZE" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-SIZER" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="PROC" layoutX="280" layoutY="56" prefHeight="15.9609375" prefWidth="30.375" styleClass="label " text="PROC" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-PROC" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="SIZER1" layoutX="176" layoutY="56" prefHeight="15.9609375" prefWidth="48.73828125" styleClass="label " text="SIZENEW" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-SIZER1" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="POTOKI" layoutX="232" layoutY="56" prefHeight="15.9609375" prefWidth="41.255859375" styleClass="label " text="POTOKI" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-POTOKI" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="SPEEDS" layoutX="128" layoutY="56" prefHeight="15.9609375" prefWidth="33.650390625" styleClass="label " text="SPEED" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-SPEEDS" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="OST" layoutX="528" layoutY="56" prefHeight="15.9609375" prefWidth="21.708984375" styleClass="label " text="OST" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-OST" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="NADO" layoutX="560" layoutY="56" prefHeight="15.9609375" prefWidth="34.177734375" styleClass="label " text="NADO" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-NADO" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="STOP" layoutX="264" layoutY="120" prefHeight="16" prefWidth="112" styleClass="button " text="STOP" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-STOP" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="editAlt" layoutX="80" layoutY="80" prefColumnCount="12" prefHeight="32" prefWidth="520" promptText="" styleClass="text-input text-field " text="url">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-editAlt" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="15" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panelAlt" layoutX="8" layoutY="8" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="248" prefWidth="640" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="15" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="8" layoutY="8" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="256" prefWidth="640" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="16" prefHeight="17" prefWidth="608" styleClass="label " text="[beeming]" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="16"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+        <ComboBox editable="false" focusTraversable="true" id="prbox" layoutX="64" layoutY="120" prefHeight="25" prefWidth="520" promptText="" styleClass="combo-box-base combo-box " value="программы" visibleRowCount="10">
+          <items xmlns:fx="http://javafx.com/fxml">
+            <FXCollections fx:factory="observableArrayList"/>
+          </items>
+        </ComboBox>
+        <Data cursor="DEFAULT" enabled="1" id="data-prbox" visible="1"/>
+        <FlatButton alignment="CENTER" clickColor="#e6e6e6" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button5" layoutX="212" layoutY="200" prefHeight="32" prefWidth="224" styleClass="x-flat-button " text="Скачать" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button5" visible="1"/>
+        <ProgressBar focusTraversable="false" id="progressBar" layoutX="64" layoutY="160" prefHeight="24" prefWidth="520" progress="0" styleClass="progress-bar "/>
+        <Data cursor="DEFAULT" enabled="1" id="data-progressBar" visible="1"/>
+        <FlatButton alignment="CENTER" clickColor="#ffffff" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#ffffff" id="button6" layoutX="600" layoutY="2" prefHeight="24" prefWidth="24" styleClass="x-flat-button " text="x" textAlignment="CENTER" textFill="#cc3333" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button6" visible="1"/>
+        <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox" layoutX="244" layoutY="48" prefHeight="24" prefWidth="136" styleClass="check-box " text="Для разработчиков" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </CheckBox>
+        <Data cursor="DEFAULT" enabled="1" id="data-checkbox" visible="1"/>
+        <ComboBox editable="false" focusTraversable="true" id="combobox" layoutX="64" layoutY="88" prefHeight="24" prefWidth="520" promptText="" styleClass="combo-box-base combo-box " value="категории" visibleRowCount="10">
+          <items xmlns:fx="http://javafx.com/fxml">
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="graphics"/>
+              <String fx:value="montage"/>
+              <String fx:value="audio"/>
+              <String fx:value="streaming"/>
+              <String fx:value="utilits"/>
+            </FXCollections>
+          </items>
+        </ComboBox>
+        <Data cursor="DEFAULT" enabled="1" id="data-combobox" visible="1"/>
+        <FlatButton alignment="CENTER" clickColor="#e6e6e6" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button" layoutX="432" layoutY="200" prefHeight="32" prefWidth="152" styleClass="x-flat-button " text="Поддержать" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+        <FlatButton alignment="CENTER" clickColor="#e6e6e6" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="buttonAlt" layoutX="64" layoutY="200" prefHeight="32" prefWidth="152" styleClass="x-flat-button " text="Не работает" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel3" visible=""/>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="15" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel4" layoutX="184" layoutY="80" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="144" prefWidth="288" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <LabelEx alignment="TOP_CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="8" layoutY="24" prefHeight="56" prefWidth="272" styleClass="label " text="Если у вас возникли проблемы, то включите &#10;функцию &quot;Для разработчиков&quot; и отправьте &#10;скриншот нам." textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+        <FlatButton alignment="CENTER" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button3" layoutX="16" layoutY="88" prefHeight="32" prefWidth="256" styleClass="x-flat-button " text="Написать" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button3" visible="1"/>
+        <FlatButton alignment="CENTER" clickColor="#ffffff" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#ffffff" id="button7" layoutX="248" layoutY="1" prefHeight="24" prefWidth="24" styleClass="x-flat-button " text="x" textAlignment="CENTER" textFill="#cc3333" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button7" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel4" visible=""/>
+    <FlatButton alignment="CENTER" clickColor="#ffffff" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#ffffff" id="button4" layoutX="608" layoutY="10" prefHeight="24" prefWidth="24" styleClass="x-flat-button " text="x" textAlignment="CENTER" textFill="#cc3333" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button4" visible="1"/>
+  </children>
+</AnchorPane>

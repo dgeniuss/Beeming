@@ -1,0 +1,13 @@
+{
+  "uid": "MistSilver",
+  "name": "Mist Silver",
+  "version": "",
+  "description": "Строгая тема в серо-голубых тонах",
+  "author": "",
+  "authorSite": "",
+  "file": "",
+  "scopes": [
+    "gui",
+    "ide\\project\\behaviours\\GuiFrameworkProjectBehaviour"
+  ]
+}
